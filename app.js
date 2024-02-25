@@ -14,27 +14,27 @@ var a= "“Rules for naming JS variables”",b="Variable names can only contain"
 document.write(b+"</br>"+"numbers $ and _. for example $my_1stVariable"+"</br>"+c+"letter $ or_.for exanple $name _name or name"+"</br>"+d+" sensitive"+"</br>"+e+" keywords")
 // chapter no 5
 // Q1
-// var number1 = parseInt(prompt("Enter the first number"));
-// var number2 = parseInt(prompt("Enter the second number"));
-// var sum = number1 + number2;
-// document.write("<h1>Sum of "+number1 + "and "+ number2 +" is "+ sum+ "</h1>")
+var number1 = parseInt(prompt("Enter the first number"));
+var number2 = parseInt(prompt("Enter the second number"));
+var sum = number1 + number2;
+document.write("<h1>Sum of "+number1 + "and "+ number2 +" is "+ sum+ "</h1>")
 // Q2
 var ticketPrice = 600;
 var numberOfTickets = 5;
 var totalCost = ticketPrice * numberOfTickets;
 console.log("Total cost of buy 5 tickets to a movie is "+ totalCost+ " PKR");
 // Q3
-// var number = prompt( "Enter table Number")
-// document.write("<h1>" + number +" x 1 ="+ number * 1+ "</br> </h1>")
-// document.write("<h1>" + number +" x 2 ="+ number * 2+ "</br> </h1>")
-// document.write("<h1>" + number +" x 3 ="+ number * 3+ "</br> </h1>")
-// document.write("<h1>" + number +" x 4 ="+ number * 4+ "</br> </h1>")
-// document.write("<h1>" + number +" x 5 ="+ number * 5+ "</br> </h1>")
-// document.write("<h1>" + number +" x 6 ="+ number * 6+ "</br> </h1>")
-// document.write("<h1>" + number +" x 7 ="+ number * 7+ "</br> </h1>")
-// document.write("<h1>" + number +" x 8 ="+ number * 8+ "</br> </h1>")
-// document.write("<h1>" + number +" x 9 ="+ number * 9+ "</br> </h1>")
-// document.write("<h1>" + number +" x 10 ="+ number * 10+ "</br> </h1>")
+var number = prompt( "Enter table Number")
+document.write("<h1>" + number +" x 1 ="+ number * 1+ "</br> </h1>")
+document.write("<h1>" + number +" x 2 ="+ number * 2+ "</br> </h1>")
+document.write("<h1>" + number +" x 3 ="+ number * 3+ "</br> </h1>")
+document.write("<h1>" + number +" x 4 ="+ number * 4+ "</br> </h1>")
+document.write("<h1>" + number +" x 5 ="+ number * 5+ "</br> </h1>")
+document.write("<h1>" + number +" x 6 ="+ number * 6+ "</br> </h1>")
+document.write("<h1>" + number +" x 7 ="+ number * 7+ "</br> </h1>")
+document.write("<h1>" + number +" x 8 ="+ number * 8+ "</br> </h1>")
+document.write("<h1>" + number +" x 9 ="+ number * 9+ "</br> </h1>")
+document.write("<h1>" + number +" x 10 ="+ number * 10+ "</br> </h1>")
 // Q4
 var celsiusTemperature = 25;
 var fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
